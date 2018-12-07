@@ -12,11 +12,7 @@ export default () => {
       id="todos"
       name="todos"
       path="/todos"
-      render={info => (
-        <div>
-          <ul>{generateTodos(info)}</ul>
-        </div>
-      )}
+      render={info => <ul>{generateTodos(info)}</ul>}
     />
   );
 };
